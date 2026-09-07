@@ -186,16 +186,6 @@ The DC fan is driven through an IRF530 MOSFET, while servos and RGB LEDs are con
 
 ---
 
-## Technical Challenge
-
-One of the key integration challenges was preventing periodic automatic control updates from overwriting manual commands received through the ESP8266.
-
-The solution was to implement independent control-mode states and stored manual actuator values. A manual command switches only the relevant subsystem into `MANUAL` mode, allowing the remaining actuators to continue operating under the fuzzy controller.
-
-This created a hybrid control architecture where automatic and manual subsystems can operate simultaneously.
-
----
-
 ## Technologies
 
 **Programming:** C++ / Arduino
@@ -230,8 +220,6 @@ https://youtube.com/shorts/masb5z87Das
 
 The `docs/` directory contains the project report, system diagrams, and supporting documentation.
 
-The `hardware/` directory contains the bill of materials and wiring information.
-
 ---
 
 ## Future Improvements
@@ -251,6 +239,10 @@ Potential improvements identified during development include:
 ## Authors
 
 **Mahd Hassan** — Firmware & Coding Lead
+**Ebad Naeem** — Testing & Documentation
+**Farhan Shahid** — Control, Logic & Algorithms
+**Khizer Kashif** — Electronics
+**Khadija Siddiqui** — Simulation and Logging
 
 NUST College of Electrical & Mechanical Engineering
 
