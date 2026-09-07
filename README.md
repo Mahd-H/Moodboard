@@ -239,9 +239,13 @@ Potential improvements identified during development include:
 ## Authors
 
 **Mahd Hassan** — Firmware & Coding Lead
+
 **Ebad Naeem** — Testing & Documentation
+
 **Farhan Shahid** — Control, Logic & Algorithms
+
 **Khizer Kashif** — Electronics
+
 **Khadija Siddiqui** — Simulation and Logging
 
 NUST College of Electrical & Mechanical Engineering
