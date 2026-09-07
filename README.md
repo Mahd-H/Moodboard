@@ -3,10 +3,10 @@
 A multi-sensor embedded environment controller that senses indoor environmental conditions and dynamically controls lighting, cooling, ventilation, and air purification using fuzzy-logic control.
 
 **Developed for:** MTS-311 — Microcontrollers & Embedded Systems
+
 **Program:** Bachelor of Mechatronics Engineering, NUST College of Electrical & Mechanical Engineering
+
 **Role:** Firmware & Coding Lead
-**Team:** Syndicate C
-**Submitted:** December 2025
 
 ---
 
